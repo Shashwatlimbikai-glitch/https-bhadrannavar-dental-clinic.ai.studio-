@@ -1,0 +1,487 @@
+{
+  "settings": {
+    "id": "primary",
+    "clinic_name": "Bhadrannavar Dental Clinic",
+    "category": "Dental Clinic",
+    "tagline": "Trusted Dental Care in Rabkavi Banhatti",
+    "hero_headline": "Confident Smiles Start With Better Dental Care.",
+    "hero_supporting": "Professional dental care designed around your comfort, oral health, and smile.",
+    "address_line": "F4JJ+H5C, Rabkavi Banhatti",
+    "landmark": "Rabkavi Banhatti",
+    "city": "Rabkavi Banhatti",
+    "state": "Karnataka",
+    "pincode": "587311",
+    "country": "India",
+    "google_maps_url": "https://maps.google.com/?q=Bhadrannavar+Dental+Clinic+Rabkavi+Banhatti+Karnataka+587311",
+    "google_maps_embed_url": "https://maps.google.com/maps?q=Bhadrannavar%20Dental%20Clinic%2C%20Rabkavi%20Banhatti%2C%20Karnataka%20587311&t=&z=15&ie=UTF8&iwloc=&output=embed",
+    "phone": "",
+    "whatsapp": "",
+    "email": "",
+    "emergency_policy": "For urgent dental pain or emergencies during clinic hours, please contact the clinic directly for immediate triage.",
+    "consultation_fee_note": "Standard consultation fee applies. Fee details can be confirmed with clinic staff upon appointment.",
+    "google_rating": 5,
+    "google_review_count": 3,
+    "appointment_duration_minutes": 30,
+    "buffer_minutes": 10,
+    "updated_at": "2026-10-05T16:56:59.235Z"
+  },
+  "doctor": {
+    "name": "Dr. Bhadrannavar",
+    "designation": "Dental Surgeon & Clinic Director",
+    "qualifications": "BDS - Bachelor of Dental Surgery (Editable by Clinic Admin)",
+    "experience": "Dedicated Practice in General & Restorative Dentistry",
+    "bio": "Providing gentle, personalized oral healthcare for individuals and families in Rabkavi Banhatti. Focuses on preventative health, painless treatments, and long-term smile wellness.",
+    "photo_url": "",
+    "approach": "We believe exceptional dental care is built on patient trust, sterile clinical protocols, clear communication, and compassionate treatment."
+  },
+  "availability": [
+    {
+      "day": "monday",
+      "is_open": true,
+      "morning_open": "09:30",
+      "morning_close": "13:30",
+      "evening_open": "16:30",
+      "evening_close": "20:00",
+      "has_split_shift": true
+    },
+    {
+      "day": "tuesday",
+      "is_open": true,
+      "morning_open": "09:30",
+      "morning_close": "13:30",
+      "evening_open": "16:30",
+      "evening_close": "20:00",
+      "has_split_shift": true
+    },
+    {
+      "day": "wednesday",
+      "is_open": true,
+      "morning_open": "09:30",
+      "morning_close": "13:30",
+      "evening_open": "16:30",
+      "evening_close": "20:00",
+      "has_split_shift": true
+    },
+    {
+      "day": "thursday",
+      "is_open": true,
+      "morning_open": "09:30",
+      "morning_close": "13:30",
+      "evening_open": "16:30",
+      "evening_close": "20:00",
+      "has_split_shift": true
+    },
+    {
+      "day": "friday",
+      "is_open": true,
+      "morning_open": "09:30",
+      "morning_close": "13:30",
+      "evening_open": "16:30",
+      "evening_close": "20:00",
+      "has_split_shift": true
+    },
+    {
+      "day": "saturday",
+      "is_open": true,
+      "morning_open": "09:30",
+      "morning_close": "13:30",
+      "evening_open": "16:30",
+      "evening_close": "20:00",
+      "has_split_shift": true
+    },
+    {
+      "day": "sunday",
+      "is_open": false,
+      "morning_open": "10:00",
+      "morning_close": "13:00",
+      "evening_open": "17:00",
+      "evening_close": "19:00",
+      "has_split_shift": false
+    }
+  ],
+  "blocked_slots": [],
+  "services": [
+    {
+      "id": "general-consultation",
+      "name": "General Dental Consultation",
+      "category": "Preventive Care",
+      "duration_minutes": 30,
+      "price_note": "Standard consultation fee",
+      "short_desc": "Comprehensive oral examination, diagnostic review, and personalized care plan.",
+      "full_desc": "Detailed examination of your teeth, gums, tongue, and bite alignment. Includes preventive oral hygiene advice and customized treatment recommendations.",
+      "active": true,
+      "order": 1
+    },
+    {
+      "id": "dental-cleaning",
+      "name": "Dental Cleaning & Polishing",
+      "category": "Preventive Care",
+      "duration_minutes": 30,
+      "price_note": "Contact clinic for fee",
+      "short_desc": "Gentle ultrasonic scaling to eliminate plaque, stubborn tartar, and surface stains.",
+      "full_desc": "Professional dental scaling prevents gingivitis and periodontal problems. Leaves teeth feeling fresh, clean, and healthy without enamel erosion.",
+      "active": true,
+      "order": 2
+    },
+    {
+      "id": "teeth-whitening",
+      "name": "Teeth Whitening",
+      "category": "Cosmetic Dentistry",
+      "duration_minutes": 45,
+      "price_note": "Contact clinic for fee",
+      "short_desc": "Safe, in-office dental whitening to brighten smiles and reduce discoloration.",
+      "full_desc": "High-grade clinical whitening tailored to safely lift coffee, tea, and tobacco stains for a refreshed, naturally radiant smile.",
+      "active": true,
+      "order": 3
+    },
+    {
+      "id": "tooth-restoration",
+      "name": "Tooth Restoration & Fillings",
+      "category": "Restorative Care",
+      "duration_minutes": 45,
+      "price_note": "Contact clinic for fee",
+      "short_desc": "Tooth-colored composite fillings for decay, chipped edges, and wear.",
+      "full_desc": "Modern composite resin matches the natural shade of your teeth, reinforcing tooth structure and restoring normal chewing function seamlessly.",
+      "active": true,
+      "order": 4
+    },
+    {
+      "id": "root-canal",
+      "name": "Root Canal Treatment",
+      "category": "Endodontics",
+      "duration_minutes": 60,
+      "price_note": "Contact clinic for fee",
+      "short_desc": "Gentle, modern procedure to relieve toothache and save the natural tooth.",
+      "full_desc": "Carefully removes infection from inside the tooth pulp, cleans and seals the root canal space, providing lasting pain relief and preserving natural dentition.",
+      "active": true,
+      "order": 5
+    },
+    {
+      "id": "crowns-bridges",
+      "name": "Crowns & Bridges",
+      "category": "Prosthodontics",
+      "duration_minutes": 45,
+      "price_note": "Contact clinic for fee",
+      "short_desc": "Durable custom ceramic and porcelain crowns to restore damaged or missing teeth.",
+      "full_desc": "Custom-crafted dental crowns protect weakened teeth, while bridges provide stable, natural-looking replacement for missing teeth.",
+      "active": true,
+      "order": 6
+    },
+    {
+      "id": "tooth-extraction",
+      "name": "Tooth Extraction",
+      "category": "Oral Surgery",
+      "duration_minutes": 45,
+      "price_note": "Contact clinic for fee",
+      "short_desc": "Painless, gentle tooth removal when preservation is no longer clinically feasible.",
+      "full_desc": "Performed under modern local anesthesia with careful technique to ensure patient comfort and swift healing.",
+      "active": true,
+      "order": 7
+    },
+    {
+      "id": "children-dentistry",
+      "name": "Children's Dental Care",
+      "category": "Pediatric Dentistry",
+      "duration_minutes": 30,
+      "price_note": "Contact clinic for fee",
+      "short_desc": "Compassionate, kid-friendly dental check-ups, cleanings, and cavity prevention.",
+      "full_desc": "Creating positive early dental experiences for young children. Emphasizes tooth brushing techniques, diet habits, and early prevention.",
+      "active": true,
+      "order": 8
+    },
+    {
+      "id": "gum-care",
+      "name": "Gum Care & Periodontics",
+      "category": "Periodontal Care",
+      "duration_minutes": 30,
+      "price_note": "Contact clinic for fee",
+      "short_desc": "Specialized therapy for bleeding gums, sensitivity, and periodontal health.",
+      "full_desc": "Deep cleaning, root surface debridement, and medicated irrigation to arrest gum bleeding, combat bad breath, and stabilize teeth.",
+      "active": true,
+      "order": 9
+    },
+    {
+      "id": "cosmetic-dentistry",
+      "name": "Cosmetic Dentistry & Smile Design",
+      "category": "Cosmetic Dentistry",
+      "duration_minutes": 45,
+      "price_note": "Contact clinic for fee",
+      "short_desc": "Aesthetic recontouring, diastema closure, and composite veneers.",
+      "full_desc": "Comprehensive smile enhancements tailored to your facial aesthetics, addressing gaps, slight crowding, or uneven tooth shapes.",
+      "active": true,
+      "order": 10
+    }
+  ],
+  "appointments": [
+    {
+      "id": "apt-001",
+      "booking_reference": "BDC-2026-9041",
+      "patient_name": "Suresh Patil",
+      "phone": "9845012345",
+      "email": "suresh.patil@example.com",
+      "service_id": "general-consultation",
+      "service_name": "General Dental Consultation",
+      "appointment_date": "2026-10-06",
+      "appointment_time": "10:00 AM",
+      "status": "confirmed",
+      "message": "Routine dental check-up and mild sensitivity in lower left molar.",
+      "admin_notes": "Confirmed via phone call. Patient informed to arrive 5 mins early.",
+      "created_at": "2026-10-04T16:56:59.235Z",
+      "updated_at": "2026-10-05T04:56:59.235Z"
+    },
+    {
+      "id": "apt-002",
+      "booking_reference": "BDC-2026-9042",
+      "patient_name": "Ananya Kulkarni",
+      "phone": "9480112233",
+      "email": "ananya.k@example.com",
+      "service_id": "dental-cleaning",
+      "service_name": "Dental Cleaning & Polishing",
+      "appointment_date": "2026-10-07",
+      "appointment_time": "11:00 AM",
+      "status": "pending",
+      "message": "Annual dental cleaning and tartar removal.",
+      "created_at": "2026-10-05T10:56:59.235Z",
+      "updated_at": "2026-10-05T10:56:59.235Z"
+    },
+    {
+      "patient_name": "Rajesh Kumar",
+      "phone": "9876543210",
+      "email": "rajesh@example.com",
+      "service_id": "general-consultation",
+      "service_name": "General Dental Consultation",
+      "appointment_date": "2026-10-15",
+      "appointment_time": "10:30 AM",
+      "message": "Testing Supabase connection",
+      "id": "apt-1791222103283",
+      "booking_reference": "BDC-2026-7053",
+      "status": "pending",
+      "created_at": "2026-10-05T17:41:43.283Z",
+      "updated_at": "2026-10-05T17:41:43.283Z"
+    },
+    {
+      "patient_name": "Shashwat Limbikai",
+      "phone": "9845098450",
+      "email": "shashwatlimbikai@gmail.com",
+      "service_id": "general-consultation",
+      "service_name": "General Dental Consultation",
+      "appointment_date": "2026-10-16",
+      "appointment_time": "11:00 AM",
+      "message": "Initial dental checkup appointment",
+      "id": "apt-1791222549292",
+      "booking_reference": "BDC-2026-8319",
+      "status": "pending",
+      "created_at": "2026-10-05T17:49:09.292Z",
+      "updated_at": "2026-10-05T17:49:09.292Z"
+    },
+    {
+      "patient_name": "Deepak Hugar",
+      "phone": "9845011223",
+      "email": "deepak.hugar@example.com",
+      "service_id": "teeth-whitening",
+      "service_name": "Teeth Whitening",
+      "appointment_date": "2026-10-20",
+      "appointment_time": "05:00 PM",
+      "message": "Enquiry for professional teeth whitening and cleaning",
+      "id": "apt-1791224297326",
+      "booking_reference": "BDC-2026-2217",
+      "status": "cancelled",
+      "created_at": "2026-10-05T18:18:17.326Z",
+      "updated_at": "2026-10-05T18:18:38.478Z",
+      "admin_notes": "Cancelled per patient request"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev-001",
+      "author_name": "Patient (Verified Reviewer)",
+      "rating": 5,
+      "review_date": "Google Review",
+      "comment": "Excellent dental care and very gentle treatment. Highly recommended clinic in Rabkavi Banhatti.",
+      "verified_google": true
+    },
+    {
+      "id": "rev-002",
+      "author_name": "Local Resident",
+      "rating": 5,
+      "review_date": "Google Review",
+      "comment": "Very professional, clean clinic with great attention to patient comfort and hygiene.",
+      "verified_google": true
+    },
+    {
+      "id": "rev-003",
+      "author_name": "Banhatti Patient",
+      "rating": 5,
+      "review_date": "Google Review",
+      "comment": "Prompt appointment and polite care. One of the best dental clinics in the area.",
+      "verified_google": true
+    }
+  ],
+  "gallery": [
+    {
+      "id": "gal-1",
+      "title": "Consultation & Treatment Operatory",
+      "category": "Treatment Room",
+      "image_url": "https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=800&q=80",
+      "description": "Sterile modern dental unit designed for maximum patient ergonomic comfort.",
+      "is_verified_clinic_photo": false
+    },
+    {
+      "id": "gal-2",
+      "title": "Clinic Reception & Waiting Lounge",
+      "category": "Reception",
+      "image_url": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=800&q=80",
+      "description": "Comfortable, serene waiting lounge for visiting patients and families.",
+      "is_verified_clinic_photo": false
+    },
+    {
+      "id": "gal-3",
+      "title": "Sterilization & Diagnostic Tools",
+      "category": "Equipment",
+      "image_url": "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=800&q=80",
+      "description": "Hospital-grade autoclaves and sanitized clinical instruments.",
+      "is_verified_clinic_photo": false
+    },
+    {
+      "id": "gal-4",
+      "title": "Precision Dental Examination",
+      "category": "Patient Experience",
+      "image_url": "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=800&q=80",
+      "description": "Careful diagnostic evaluation ensuring clear explanation of treatment steps.",
+      "is_verified_clinic_photo": false
+    }
+  ],
+  "faqs": [
+    {
+      "id": "faq-1",
+      "order": 1,
+      "question": "How do I book an appointment?",
+      "answer": "You can easily request an appointment online through our website in four simple steps: choose your dental service, pick a convenient date, select an open time slot, and submit your contact details. Our team will promptly confirm your booking."
+    },
+    {
+      "id": "faq-2",
+      "order": 2,
+      "question": "Can I choose my preferred appointment time?",
+      "answer": "Yes! Our dynamic booking system displays real-time available time slots based on doctor availability. Unavailable or already reserved slots are automatically blocked to prevent overlapping bookings."
+    },
+    {
+      "id": "faq-3",
+      "order": 3,
+      "question": "How can I reschedule or cancel my appointment?",
+      "answer": "If you need to change your appointment date or time, please contact the clinic with your booking reference code at least a few hours in advance so we can assist you with alternative slots."
+    },
+    {
+      "id": "faq-4",
+      "order": 4,
+      "question": "What should I bring to my appointment?",
+      "answer": "Please bring any previous dental records, X-rays, or a list of current medications you are taking. Arriving 5 to 10 minutes prior to your scheduled time ensures a smooth check-in."
+    },
+    {
+      "id": "faq-5",
+      "order": 5,
+      "question": "Do you accept emergency dental appointments?",
+      "answer": "Yes, patients with severe dental pain, trauma, or swelling are prioritized based on clinical schedule availability during clinic working hours. Please call ahead if possible so our team can prepare."
+    },
+    {
+      "id": "faq-6",
+      "order": 6,
+      "question": "What dental services are available at Bhadrannavar Dental Clinic?",
+      "answer": "We provide general consultations, teeth cleaning and scaling, fillings, root canals, crowns, tooth extractions, children’s dental care, gum care, and cosmetic smile procedures."
+    },
+    {
+      "id": "faq-7",
+      "order": 7,
+      "question": "What are your clinic opening hours?",
+      "answer": "We operate Monday through Saturday with morning and evening sessions. Exact consultation hours are displayed in our booking calendar and can be customized by the clinic administrator."
+    },
+    {
+      "id": "faq-8",
+      "order": 8,
+      "question": "Can children visit the clinic?",
+      "answer": "Yes, we welcome children of all ages. Our friendly clinical approach is designed to make young patients feel completely safe, calm, and comfortable."
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-001",
+      "appointment_id": "apt-001",
+      "type": "booking_received",
+      "recipient_name": "Suresh Patil",
+      "recipient_contact": "suresh.patil@example.com",
+      "channel": "email",
+      "subject": "Appointment Request Received: Bhadrannavar Dental Clinic [BDC-2026-9041]",
+      "content": "Dear Suresh Patil, your appointment request for General Dental Consultation has been received. Our team will review and confirm your slot.",
+      "status": "sent",
+      "timestamp": "2026-10-04T16:56:59.235Z"
+    },
+    {
+      "appointment_id": "apt-1791222103283",
+      "type": "booking_received",
+      "recipient_name": "Rajesh Kumar",
+      "recipient_contact": "rajesh@example.com",
+      "channel": "email",
+      "subject": "Appointment Request Received: Bhadrannavar Dental Clinic [BDC-2026-7053]",
+      "content": "Hello Rajesh Kumar, we have received your booking request for General Dental Consultation on 2026-10-15 at 10:30 AM. Our clinic will confirm your slot shortly.",
+      "status": "sent",
+      "id": "notif-1791222103283-fjip",
+      "timestamp": "2026-10-05T17:41:43.283Z"
+    },
+    {
+      "appointment_id": "apt-1791222549292",
+      "type": "booking_received",
+      "recipient_name": "Shashwat Limbikai",
+      "recipient_contact": "shashwatlimbikai@gmail.com",
+      "channel": "email",
+      "subject": "Appointment Request Received: Bhadrannavar Dental Clinic [BDC-2026-8319]",
+      "content": "Hello Shashwat Limbikai, we have received your booking request for General Dental Consultation on 2026-10-16 at 11:00 AM. Our clinic will confirm your slot shortly.",
+      "status": "sent",
+      "id": "notif-1791222549292-dkic",
+      "timestamp": "2026-10-05T17:49:09.292Z"
+    },
+    {
+      "appointment_id": "apt-1791224297326",
+      "type": "booking_received",
+      "recipient_name": "Deepak Hugar",
+      "recipient_contact": "deepak.hugar@example.com",
+      "channel": "email",
+      "subject": "Appointment Request Received: Bhadrannavar Dental Clinic [BDC-2026-2217]",
+      "content": "Hello Deepak Hugar, we have received your booking request for Teeth Whitening on 2026-10-20 at 05:00 PM. Our clinic will confirm your slot shortly.",
+      "status": "sent",
+      "id": "notif-1791224297326-zxwz",
+      "timestamp": "2026-10-05T18:18:17.326Z"
+    },
+    {
+      "appointment_id": "apt-1791224297326",
+      "type": "booking_confirmed",
+      "recipient_name": "Deepak Hugar",
+      "recipient_contact": "deepak.hugar@example.com",
+      "channel": "email",
+      "subject": "Appointment Confirmed: Bhadrannavar Dental Clinic [BDC-2026-2217]",
+      "content": "Dear Deepak Hugar, your dental appointment for Teeth Whitening has been CONFIRMED for 2026-10-20 at 05:00 PM at Bhadrannavar Dental Clinic, Rabkavi Banhatti.",
+      "status": "sent",
+      "id": "notif-1791224311260-arwb",
+      "timestamp": "2026-10-05T18:18:31.260Z"
+    },
+    {
+      "appointment_id": "apt-1791224297326",
+      "type": "booking_cancelled",
+      "recipient_name": "Deepak Hugar",
+      "recipient_contact": "deepak.hugar@example.com",
+      "channel": "email",
+      "subject": "Appointment Update: Bhadrannavar Dental Clinic [BDC-2026-2217]",
+      "content": "Dear Deepak Hugar, your appointment for Teeth Whitening on 2026-10-20 has been cancelled. Please contact the clinic to reschedule.",
+      "status": "sent",
+      "id": "notif-1791224318478-gd10",
+      "timestamp": "2026-10-05T18:18:38.478Z"
+    }
+  ],
+  "admin_users": [
+    {
+      "id": "admin-1",
+      "email": "admin@bhadrannavar.com",
+      "password_hash": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
+      "name": "Clinic Administrator",
+      "role": "super_admin"
+    }
+  ]
+}

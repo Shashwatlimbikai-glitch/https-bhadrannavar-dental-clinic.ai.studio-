@@ -1,0 +1,6 @@
+{
+  "name": "Bhadrannavar Dental Clinic",
+  "description": "Visit Bhadrannavar Dental Clinic in Rabkavi Banhatti, Karnataka. Explore dental services and conveniently request an appointment online.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
